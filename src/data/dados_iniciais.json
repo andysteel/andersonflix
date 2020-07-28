@@ -1,0 +1,185 @@
+{
+  "categorias": [
+    {
+      "titulo": "Heavy Metal",
+      "link": "https://www.youtube.com/watch?v=qrMwxe2ya5E",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Coding and HeadBanging",
+        "url": "https://www.youtube.com/watch?v=qrMwxe2ya5E"
+      },
+      "videos": [
+        {
+          "titulo": "NIGHTWISH - The Greatest Show on Earth (with Richard Dawkins) (OFFICIAL LIVE)",
+          "url": "https://www.youtube.com/watch?v=qrMwxe2ya5E"
+        },
+        {
+          "titulo": "Amon Amarth - The Way of Vikings",
+          "url": "https://www.youtube.com/watch?v=55OJ17cHeJA"
+        },
+        {
+          "titulo": "ARCH ENEMY - The World Is Yours (VIDEO OFICIAL)",
+          "url": "https://www.youtube.com/watch?v=lk2-bgwA0Ro"
+        },
+        {
+          "titulo": "SOULFLY - Prophecy (OFFICIAL MUSIC VIDEO)",
+          "url": "https://www.youtube.com/watch?v=0Sl5-Cl6LOo"
+        },
+        {
+          "titulo": "SEPULTURA - Means To An End (OFFICIAL MUSIC VIDEO)",
+          "url": "https://www.youtube.com/watch?v=TMLed7lL5CU"
+        },
+        {
+          "titulo": "Metallica - For Whom the Bell Tolls (Live) [Cliff 'Em All]",
+          "url": "https://www.youtube.com/watch?v=qdlQyNe_9tE"
+        },
+        {
+          "titulo": "BLACK SABBATH - N.I.B. from The End (Live Video)",
+          "url": "https://www.youtube.com/watch?v=Zxjz6VhUOr8"
+        },
+        {
+          "titulo": "Rage Against The Machine - Testify (Live At Finsbury Park, London, 2010)",
+          "url": "https://www.youtube.com/watch?v=qm7ych5qH14"
+        }        
+      ]
+    },
+    {
+      "titulo": "Filme",
+      "cor": "#f50057",
+      "link_extra": {
+        "text": "Melhores indicações de ANDERSONFLIX",
+        "url": "https://www.youtube.com/feed/storefront?bp=ogUCKAI%3D"
+      },
+      "videos": [
+        {
+          "titulo": "Interstellar - Trailer - Official Warner Bros. UK",
+          "url": "https://www.youtube.com/watch?v=zSWdZVtXT7E"
+        },
+        {
+          "titulo": "The Martian | Official Trailer [HD] | 20th Century FOX",
+          "url": "https://www.youtube.com/watch?v=ej3ioOneTy8"
+        },
+        {
+          "titulo": "Ad Astra: Rumo Às Estrelas | Trailer Oficial | Legendado HD",
+          "url": "https://www.youtube.com/watch?v=0kfRv-L-vqg"
+        },
+        {
+          "titulo": "The Lord of the Rings: The Fellowship of the Ring Official Trailer #1 - (2001) HD",
+          "url": "https://www.youtube.com/watch?v=V75dMMIW2B4"
+        }, 
+        {
+          "titulo": "Rogue One: A Star Wars Story Trailer (Official)",
+          "url": "https://www.youtube.com/watch?v=frdj1zb9sMY"
+        }
+      ]
+    },
+    {
+      "titulo": "Ciência",
+      "cor": "#651fff",
+      "link_extra": {
+        "text": "Busca por conhecimento",
+        "url": "https://www.youtube.com/user/Kurzgesagt"
+      },
+      "videos": [
+        {
+          "titulo": "A Realidade é Real? A teoria da Simulação",
+          "url": "https://www.youtube.com/watch?v=tlTKTTt47WE"
+        },
+        {
+          "titulo": "Explicando os buracos de minhoca - Quebrando o Espaço-tempo",
+          "url": "https://www.youtube.com/watch?v=9P6rdqiybaw"
+        },
+        {
+          "titulo": "Teoria das cordas explicada - Qual é a verdadeira natureza da realidade?",
+          "url": "https://www.youtube.com/watch?v=Da-2h2B4faU"
+        },
+        {
+          "titulo": "O que é matéria escura e energia escura?",
+          "url": "https://www.youtube.com/watch?v=QAa2O_8wBUQ"
+        }
+      ]
+    },
+    {
+      "titulo": "Séries",
+      "cor": "#00e5ff",
+      "videos": [
+        {
+          "titulo": "Game of Thrones | 8a. Temporada | Trailer Oficial (HBO)",
+          "url": "https://www.youtube.com/watch?v=Ah5LiqkKBTo&t=48s"
+        },
+        {
+          "titulo": "Vikings: Trailer",
+          "url": "https://www.youtube.com/watch?v=1j2sXLbzm9U"
+        },
+        {
+          "titulo": "Dark – Temporada 3 | Trailer oficial | Netflix",
+          "url": "https://www.youtube.com/watch?v=9RNHKKYJvg8"
+        },
+        {
+          "titulo": "Westworld - 1ª Temporada Trailer Oficial",
+          "url": "https://www.youtube.com/watch?v=jBfOlQrko0c"
+        }
+      ]
+    },
+    {
+      "titulo": "Games",
+      "cor": "#76ff03",
+      "link_extra": {
+        "text": "Formação de Jogos na Alura",
+        "url": "https://www.alura.com.br/formacao-jogos-unity"
+      },
+      "videos": [
+        {
+          "titulo": "Final Fantasy 7",
+          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+        },
+        {
+          "titulo": "Assassins Creed Valhalla",
+          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+        },
+        {
+          "titulo": "God of War 4",
+          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+        },
+        {
+          "titulo": "Resident Evil 8",
+          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+        },
+        {
+          "titulo": "Pokémon Let's Go Pikachu/Eevee",
+          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+        }
+      ]
+    },
+    {
+      "titulo": "Aprendendo a aprender tecnologia",
+      "cor": "#ff9100",
+      "link_extra": {
+        "text": "Curso sobre aprendizado na Alura",
+        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+      },
+      "videos": [
+        {
+          "titulo": "Como estudar melhor?",
+          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+        },
+        {
+          "titulo": "Faculdade",
+          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+        },
+        {
+          "titulo": "Frameworks",
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+        },
+        {
+          "titulo": "A mágica do Aprendizado",
+          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+        },
+        {
+          "titulo": "Como aprender a programar?",
+          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+        }
+      ]
+    }
+  ]
+}
