@@ -5,8 +5,7 @@
       "link": "https://www.youtube.com/watch?v=qrMwxe2ya5E",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Coding and HeadBanging",
-        "url": "https://www.youtube.com/watch?v=qrMwxe2ya5E"
+        "text": "Coding and HeadBanging"
       },
       "videos": [
         {
@@ -44,11 +43,10 @@
       ]
     },
     {
-      "titulo": "Filme",
+      "titulo": "Filmes",
       "cor": "#f50057",
       "link_extra": {
-        "text": "Melhores indicações de ANDERSONFLIX",
-        "url": "https://www.youtube.com/feed/storefront?bp=ogUCKAI%3D"
+        "text": "Melhores indicações de ANDERSONFLIX"
       },
       "videos": [
         {
@@ -77,8 +75,7 @@
       "titulo": "Ciência",
       "cor": "#651fff",
       "link_extra": {
-        "text": "Busca por conhecimento",
-        "url": "https://www.youtube.com/user/Kurzgesagt"
+        "text": "Busca por conhecimento"
       },
       "videos": [
         {
@@ -102,6 +99,9 @@
     {
       "titulo": "Séries",
       "cor": "#00e5ff",
+      "link_extra": {
+        "text": "Top séries por ANDERSONFLIX"
+      },
       "videos": [
         {
           "titulo": "Game of Thrones | 8a. Temporada | Trailer Oficial (HBO)",
@@ -123,10 +123,9 @@
     },
     {
       "titulo": "Games",
-      "cor": "#76ff03",
+      "cor": "#1a237e",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
+        "text": "Top games por ANDERSONFLIX"
       },
       "videos": [
         {
@@ -152,32 +151,31 @@
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
+      "titulo": "Animações",
       "cor": "#ff9100",
       "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+        "text": "Top animações por ANDERSONFLIX"
       },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "Rick and Morty Season 4 - Official Trailer",
+          "url": "https://www.youtube.com/watch?v=hl1U0bxTHbY"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "Final Space [OFFICIAL TRAILER]",
+          "url": "https://www.youtube.com/watch?v=4EHbt_kSkG8"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Family Guy Season 18 Comic-Con Trailer",
+          "url": "https://www.youtube.com/watch?v=Le1x2To-e6g"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+          "titulo": "SOUTH PARK Season 21 Official Trailer [HD]",
+          "url": "https://www.youtube.com/watch?v=8F16zdxynlg"
         },
         {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "The Simpsons Movie",
+          "url": "https://www.youtube.com/watch?v=XPG0MqIcby8"
         }
       ]
     }

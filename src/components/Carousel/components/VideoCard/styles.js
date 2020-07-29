@@ -19,8 +19,10 @@ export const VideoCardContainer = styled.a`
   align-items: flex-end;
   padding: 16px;
 
-  transition: opacity .3s;
-  &:hover,
+  transition: transform .2s;
+  &:hover {
+    transform: scale(1.5);
+  }
   &:focus {
     opacity: .5;
   }

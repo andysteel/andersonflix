@@ -1,17 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-// import * as serviceWorker from './serviceWorker';
+import Home from './pages/Home';
+import CadastroVideo from './pages/cadastro/Video'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import CadastroCategoria from './pages/cadastro/Categoria';
+
+const Pagina404 = () => (
+  //<iframe title="404" src="https://editor.p5js.org/andersoninfonet/embed/K49gWqVc-" width="800" height="600"></iframe>
+  <div>Pagina 404</div>
+)
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Switch>
+      <Route path="/" component={Home} exact ></Route>
+      <Route path="/cadastro/video" component={CadastroVideo}></Route>
+      <Route path="/cadastro/categoria" component={CadastroCategoria} ></Route>
+      <Route component={Pagina404}></Route>
+    </Switch>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-// serviceWorker.unregister();
+
