@@ -70,6 +70,8 @@ function CadastroVideo() {
     <PageDefault pathPagina="/cadastro/categoria" nomeBotao="Nova Categoria">
       <Main>
         <form>
+          <br />
+          <br />
           <FormField
             label="Título do Vídeo"
             type="text"
