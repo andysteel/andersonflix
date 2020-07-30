@@ -1,0 +1,10 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Heavy Metal",
+            "descricao": "Coding and HeadBanging",
+            "cor": "#6BD1FF"
+        }
+    ]
+}

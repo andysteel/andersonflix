@@ -1,7 +1,7 @@
-import React from 'react'
-import Menu from '../Menu'
-import Footer from '../Footer'
+import React from 'react';
 import styled from 'styled-components';
+import Menu from '../Menu';
+import Footer from '../Footer';
 
 export const Main = styled.main`
     background-color: var(--black);
@@ -10,16 +10,16 @@ export const Main = styled.main`
     padding-top: 50px;
     padding-left: 5%;
     padding-right: 5%;
-`
+`;
 
-function PageDefault({children}) {
-    return (
-        <>
-            <Menu />
-                {children}
-            <Footer />
-        </>
-    );
+function PageDefault({ children, pathPagina , nomeBotao}) {
+  return (
+    <>
+      <Menu pathPagina={pathPagina} nomeBotao={nomeBotao} />
+      {children}
+      <Footer />
+    </>
+  );
 }
 
-export default PageDefault
+export default PageDefault;

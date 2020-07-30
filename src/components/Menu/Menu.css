@@ -1,9 +1,13 @@
 .Logo {
-    max-width: 168px;
+    max-width: 268px;
   }
   @media (max-width: 800px) {
     .Logo {
-      max-width: 105px;
+      padding-top: 10px;
+      max-width: 205px;
+    }
+    .Menu {
+      height: 98px !important;
     }
   }
   
