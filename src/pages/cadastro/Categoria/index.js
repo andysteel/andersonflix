@@ -30,7 +30,7 @@ function CadastroCategoria() {
   useEffect(() => {
     const URL = window.location.href.includes('localhost')
       ? 'http://localhost:8080/api/categorias'
-      : 'https://andersonflix.vercel.app/api/categorias';
+      : 'https://andersonflix.herokuapp.com/api/categorias';
     fetch(URL)
       .then(async (respostaDoServer) => {
         if (respostaDoServer.ok) {
