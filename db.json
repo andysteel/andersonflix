@@ -1,10 +1,252 @@
 {
-    "categorias": [
-        {
-            "id": 1,
-            "nome": "Heavy Metal",
-            "descricao": "Coding and HeadBanging",
-            "cor": "#6BD1FF"
-        }
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Heavy Metal",
+      "descricao": "",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Top bandas por ANDERSONFLIX",
+        "url": ""
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Filmes",
+      "descricao": "",
+      "cor": "#f50057",
+      "link_extra": {
+        "text": "Top filmes por ANDERSONFLIX",
+        "url": ""
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Ciência",
+      "descricao": "",
+      "cor": "#651fff",
+      "link_extra": {
+        "text": "Top assuntos científicos por ANDERSONFLIX",
+        "url": ""
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Séries",
+      "descricao": "",
+      "cor": "#00e5ff",
+      "link_extra": {
+        "text": "Top séries por ANDERSONFLIX",
+        "url": ""
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Games",
+      "descricao": "",
+      "cor": "#1a237e",
+      "link_extra": {
+        "text": "Top games por ANDERSONFLIX",
+        "url": ""
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Animações",
+      "descricao": "",
+      "cor": "#ff9100",
+      "link_extra": {
+        "text": "Top animações por ANDERSONFLIX",
+        "url": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "NIGHTWISH - The Greatest Show on Earth (with Richard Dawkins) (OFFICIAL LIVE)",
+      "url": "https://www.youtube.com/watch?v=qrMwxe2ya5E"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Amon Amarth - The Way of Vikings",
+      "url": "https://www.youtube.com/watch?v=55OJ17cHeJA"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "ARCH ENEMY - The World Is Yours (VIDEO OFICIAL)",
+      "url": "https://www.youtube.com/watch?v=lk2-bgwA0Ro"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "SOULFLY - Prophecy (OFFICIAL MUSIC VIDEO)",
+      "url": "https://www.youtube.com/watch?v=0Sl5-Cl6LOo"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "SEPULTURA - Means To An End (OFFICIAL MUSIC VIDEO)",
+      "url": "https://www.youtube.com/watch?v=TMLed7lL5CU"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Metallica - For Whom the Bell Tolls (Live) [Cliff 'Em All]",
+      "url": "https://www.youtube.com/watch?v=qdlQyNe_9tE"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "BLACK SABBATH - N.I.B. from The End (Live Video)",
+      "url": "https://www.youtube.com/watch?v=Zxjz6VhUOr8"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "Rage Against The Machine - Testify (Live At Finsbury Park, London, 2010)",
+      "url": "https://www.youtube.com/watch?v=qm7ych5qH14"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Interstellar - Trailer - Official Warner Bros. UK",
+      "url": "https://www.youtube.com/watch?v=zSWdZVtXT7E"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "The Martian | Official Trailer [HD] | 20th Century FOX",
+      "url": "https://www.youtube.com/watch?v=ej3ioOneTy8"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Ad Astra: Rumo Às Estrelas | Trailer Oficial | Legendado HD",
+      "url": "https://www.youtube.com/watch?v=0kfRv-L-vqg"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "The Lord of the Rings: The Fellowship of the Ring Official Trailer #1 - (2001) HD",
+      "url": "https://www.youtube.com/watch?v=V75dMMIW2B4"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "Rogue One: A Star Wars Story Trailer (Official)",
+      "url": "https://www.youtube.com/watch?v=frdj1zb9sMY"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "A Realidade é Real? A teoria da Simulação",
+      "url": "https://www.youtube.com/watch?v=tlTKTTt47WE"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "Explicando os buracos de minhoca - Quebrando o Espaço-tempo",
+      "url": "https://www.youtube.com/watch?v=9P6rdqiybaw"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Teoria das cordas explicada - Qual é a verdadeira natureza da realidade?",
+      "url": "https://www.youtube.com/watch?v=Da-2h2B4faU"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "O que é matéria escura e energia escura?",
+      "url": "https://www.youtube.com/watch?v=QAa2O_8wBUQ"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "Game of Thrones | 8a. Temporada | Trailer Oficial (HBO)",
+      "url": "https://www.youtube.com/watch?v=Ah5LiqkKBTo&t=48s"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "Vikings: Trailer",
+      "url": "https://www.youtube.com/watch?v=1j2sXLbzm9U"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "Dark – Temporada 3 | Trailer oficial | Netflix",
+      "url": "https://www.youtube.com/watch?v=9RNHKKYJvg8"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "Westworld - 1ª Temporada Trailer Oficial",
+      "url": "https://www.youtube.com/watch?v=jBfOlQrko0c"
+    },
+    {
+      "id": 22,
+      "categoriaId": 5,
+      "titulo": "Final Fantasy 7",
+      "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+    },
+    {
+      "id": 23,
+      "categoriaId": 5,
+      "titulo": "Assassins Creed Valhalla",
+      "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+    },
+    {
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "God of War 4",
+      "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+    },
+    {
+      "id": 25,
+      "categoriaId": 5,
+      "titulo": "Resident Evil 8",
+      "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+    },
+    {
+      "id": 26,
+      "categoriaId": 5,
+      "titulo": "Pokémon Let's Go Pikachu/Eevee",
+      "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+    },
+    {
+      "id": 27,
+      "categoriaId": 6,
+      "titulo": "Rick and Morty Season 4 - Official Trailer",
+      "url": "https://www.youtube.com/watch?v=hl1U0bxTHbY"
+    },
+    {
+      "id": 28,
+      "categoriaId": 6,
+      "titulo": "Final Space [OFFICIAL TRAILER]",
+      "url": "https://www.youtube.com/watch?v=4EHbt_kSkG8"
+    },
+    {
+      "id": 29,
+      "categoriaId": 6,
+      "titulo": "Family Guy Season 18 Comic-Con Trailer",
+      "url": "https://www.youtube.com/watch?v=Le1x2To-e6g"
+    },
+    {
+      "id": 30,
+      "categoriaId": 6,
+      "titulo": "SOUTH PARK Season 21 Official Trailer [HD]",
+      "url": "https://www.youtube.com/watch?v=8F16zdxynlg"
+    },
+    {
+      "id": 31,
+      "categoriaId": 6,
+      "titulo": "The Simpsons Movie",
+      "url": "https://www.youtube.com/watch?v=XPG0MqIcby8"
+    }
+  ]
 }

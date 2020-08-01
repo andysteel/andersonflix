@@ -1,80 +1,81 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import PageDefault, { Main } from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
+import categoriaRepository from '../../../repositories/categorias';
+import DivLink from '../../../components/DivLink';
 
 function CadastroCategoria() {
   const valoresIniciais = {
-    nome: '',
+    titulo: '',
     descricao: '',
     cor: '#000000',
+    link_extra: {
+      text: '',
+      url: '',
+    },
   };
 
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
-
-  function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor,
-    });
-  }
-
-  function handleChange(evento) {
-    setValue(
-      evento.target.getAttribute('name'),
-      evento.target.value,
-    );
-  }
 
   useEffect(() => {
-    const URL = window.location.href.includes('localhost')
-      ? 'http://localhost:8080/api/categorias'
-      : 'https://andersonflix.herokuapp.com/api/categorias';
-    fetch(URL)
-      .then(async (respostaDoServer) => {
-        if (respostaDoServer.ok) {
-          const resposta = await respostaDoServer.json();
-          setCategorias(resposta);
-          return;
-        }
-        throw new Error('Não foi possível acessar os dados');
-      });
+    categoriaRepository
+      .getAll()
+      .then((categoriasFromDB) => setCategorias(categoriasFromDB));
   }, []);
+
+  const { values, handleChange, clearForm } = useForm(valoresIniciais);
 
   return (
     <PageDefault pathPagina="/cadastro/video" nomeBotao="Novo vídeo">
       <Main>
         <h1>
-          Cadastro de Categoria:
-          {values.nome}
+          Cadastro de Categoria
         </h1>
 
         <form onSubmit={(e) => {
           e.preventDefault();
-          setCategorias([
-            ...categorias,
-            values,
-          ]);
-          setValues(valoresIniciais);
+
+          categoriaRepository.create({
+            titulo: values.titulo,
+            descricao: values.descricao,
+            cor: values.cor,
+            link_extra: {
+              text: values.link_extra.text,
+              url: '',
+            },
+          }).then(() => categoriaRepository
+            .getAll()
+            .then((categoriasFromDB) => setCategorias(categoriasFromDB)));
+
+          clearForm();
         }}
         >
           <FormField
-            label="Nome da categoria:"
+            label="Nome da categoria"
             type="text"
-            name="nome"
-            value={values.nome}
+            name="titulo"
+            value={values.titulo}
             onChange={handleChange}
           />
           <FormField
-            label="Descrição:"
+            label="Frase de efeito"
+            type="text"
+            name="link_extra.text"
+            value={values.link_extra.text}
+            onChange={handleChange}
+          />
+          <FormField
+            label="Descrição"
             name="descricao"
             value={values.descricao}
             onChange={handleChange}
             as="textarea"
           />
           <FormField
-            label="Cor:"
+            label="Cor"
             type="color"
             name="cor"
             value={values.cor}
@@ -88,10 +89,14 @@ function CadastroCategoria() {
         <ul>
           {categorias.map((categoria) => (
             <li key={`${categoria.id}`}>
-              {categoria.nome}
+              {categoria.titulo}
             </li>
           ))}
         </ul>
+
+        <DivLink>
+          <Link to="/">← Home</Link>
+        </DivLink>
       </Main>
     </PageDefault>
   );
