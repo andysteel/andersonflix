@@ -4,6 +4,7 @@ import Carousel from '../../components/Carousel';
 import PageDefault from '../../components/PageDefault';
 import { Container } from './styles';
 import categoriaRepository from '../../repositories/categorias';
+import Loading from '../../components/Loading';
 
 function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
@@ -49,7 +50,7 @@ function Home() {
               />
             );
           }))}
-
+          <Loading type="spin" color="#2A7AE4" />
         </Container>
       </PageDefault>
     </div>
