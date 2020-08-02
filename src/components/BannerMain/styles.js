@@ -101,7 +101,9 @@ export const BannerMainContainer = styled.section`
 `;
 
 export const WatchButton = styled.button`
-  font-family: 'Roboto', sans-serif;
+  color: var(--white);
+  border: 1px solid var(--white);
+  background: var(--black);
   box-sizing: border-box;
   cursor: pointer;
   padding: 16px 24px;
@@ -112,14 +114,17 @@ export const WatchButton = styled.button`
   border-radius: 5px;
   text-decoration: none;
   display: inline-block;
-  border: 1px solid transparent;
-  color: var(--black);
-  background: var(--white);
-  border-color: var(--black);
   transition: opacity .3s;
-  display: none;
-  margin: 0 auto;
+  &:hover,
+  &:focus {
+    opacity: .5;
+  }
   @media (max-width: 800px) {
     display: block;
+    width: 6.7rem;
+    margin-left: 35%;
+  }
+  @media (min-width: 801px) {
+    display: none;
   }
 `;

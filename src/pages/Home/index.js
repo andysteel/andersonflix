@@ -50,7 +50,7 @@ function Home() {
               />
             );
           }))}
-          {dadosIniciais === undefined && (
+          {dadosIniciais.length === 0 && (
             <Loading type="spin" color="#2A7AE4" />
           )}
         </Container>
