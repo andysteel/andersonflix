@@ -50,7 +50,9 @@ function Home() {
               />
             );
           }))}
-          <Loading type="spin" color="#2A7AE4" />
+          {dadosIniciais === undefined && (
+            <Loading type="spin" color="#2A7AE4" />
+          )}
         </Container>
       </PageDefault>
     </div>
