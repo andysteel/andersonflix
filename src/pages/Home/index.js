@@ -50,6 +50,7 @@ function Home() {
               />
             );
           }))}
+          {window.scrollTo({ top: 0, left: 0 })}
           {dadosIniciais.length === 0 && (
             <Loading type="spin" color="#2A7AE4" />
           )}
