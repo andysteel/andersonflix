@@ -35,23 +35,25 @@ function CadastroCategoria() {
           Cadastro de Categoria
         </h1>
 
-        <form onSubmit={(e) => {
-          e.preventDefault();
+        <form
+          onLoad={window.scrollTo({ top: 0, left: 0 })}
+          onSubmit={(e) => {
+            e.preventDefault();
 
-          categoriaRepository.create({
-            titulo: values.titulo,
-            descricao: values.descricao,
-            cor: values.cor,
-            link_extra: {
-              text: values.link_extra.text,
-              url: '',
-            },
-          }).then(() => categoriaRepository
-            .getAll()
-            .then((categoriasFromDB) => setCategorias(categoriasFromDB)));
+            categoriaRepository.create({
+              titulo: values.titulo,
+              descricao: values.descricao,
+              cor: values.cor,
+              link_extra: {
+                text: values.link_extra.text,
+                url: '',
+              },
+            }).then(() => categoriaRepository
+              .getAll()
+              .then((categoriasFromDB) => setCategorias(categoriasFromDB)));
 
-          clearForm();
-        }}
+            clearForm();
+          }}
         >
           <FormField
             label="Nome da categoria"

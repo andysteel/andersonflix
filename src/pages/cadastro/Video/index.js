@@ -96,23 +96,25 @@ function CadastroVideo() {
           Cadastro de Vídeo
         </h1>
 
-        <form onSubmit={(e) => {
-          e.preventDefault();
+        <form
+          onLoad={window.scrollTo({ top: 0, left: 0 })}
+          onSubmit={(e) => {
+            e.preventDefault();
 
-          // eslint-disable-next-line arrow-body-style
-          const categoriaEscolhida = categorias.find((categoria) => {
+            // eslint-disable-next-line arrow-body-style
+            const categoriaEscolhida = categorias.find((categoria) => {
             // eslint-disable-next-line
             return categoria.titulo === values.categoria; 
-          });
+            });
 
-          videoRepository.create({
-            titulo: values.titulo,
-            url: values.url,
-            categoriaId: categoriaEscolhida.id,
-          }).then((resposta) => setVideosCadastrados(videosCadastrados.concat(resposta)));
+            videoRepository.create({
+              titulo: values.titulo,
+              url: values.url,
+              categoriaId: categoriaEscolhida.id,
+            }).then((resposta) => setVideosCadastrados(videosCadastrados.concat(resposta)));
 
-          clearForm();
-        }}
+            clearForm();
+          }}
         >
           <FormField
             label="Título do Vídeo"
